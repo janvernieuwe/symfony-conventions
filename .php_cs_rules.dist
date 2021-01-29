@@ -1,0 +1,33 @@
+<?php
+
+$config = PhpCsFixer\Config::create()
+    ->setRules([
+        '@PSR2' => true,
+        'concat_space' => ['spacing' => 'one'],
+        'no_alias_functions' => true,
+        'return_type_declaration' => true,
+        'phpdoc_to_return_type' => true,
+        'void_return' => true,
+        'ordered_imports' => true,
+        'no_unused_imports' => true,
+        'fully_qualified_strict_types' => true,
+        'array_indentation' => false,
+        'trim_array_spaces' => false,
+        'no_superfluous_phpdoc_tags' => true,
+        'no_empty_phpdoc' => true,
+        'phpdoc_trim' => true,
+        'phpdoc_separation' => true,
+        'no_whitespace_in_blank_line' => true,
+        'no_extra_blank_lines' => true,
+        'phpdoc_summary' => true,
+        'phpdoc_no_package' => true,
+        'phpdoc_align' => true,
+        'phpdoc_to_comment' => true,
+        'no_blank_lines_after_class_opening' => true,
+        'phpdoc_trim_consecutive_blank_line_separation' => true,
+        'class_attributes_separation' => false, // enable when https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues/4694 is fixed
+    ])
+    ->setFinder($finder)
+;
+
+return $config;

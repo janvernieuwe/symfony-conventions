@@ -1,0 +1,10 @@
+<?php
+
+$finder = PhpCsFixer\Finder::create()
+    ->in('src')
+    ->name('*.php')
+    ->exclude('src/Migrations/*')
+;
+
+include __DIR__.'/.php_cs_rules.dist';
+return $config;
