@@ -1,7 +1,7 @@
 parameters:
     commit.regex: "/JIRA-([0-9]*)/i"
     phpstan.config: "vendor/phpro/symfony-conventions/phpstan.neon"
-    phpstan.level: 2
+    phpstan.level: 5
     phpcsfixer2.config: "vendor/phpro/symfony-conventions/.php_cs.dist"
     phpparser.ignore:
         - vendor
