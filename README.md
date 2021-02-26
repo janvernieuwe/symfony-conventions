@@ -22,6 +22,7 @@ composer remove --dev phpro/grumphp nikic/php-parser phpstan/phpstan friendsofph
 
 ```yaml
 parameters:
+    commit.regex: "/JIRA-([0-9]*)/i"
     phpstan.config: "phpstan.neon"
     phpcsfixer2.config: ".php_cs.dist"
     phpstan.level: 2

@@ -6,13 +6,12 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "brianium/paratest": "*",
+        "brianium/paratest": "^6.2",
         "friendsofphp/php-cs-fixer": "^2.16",
         "nikic/php-parser": "^4.3",
-        "php-parallel-lint/php-parallel-lint": "^1.2",
-        "phpro/grumphp": "^1.3",
+        "phpro/grumphp-shim": "^1.3",
         "phpstan/phpstan": "^0.12.3",
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "^9.5"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master"
